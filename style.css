@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(238, 223, 226) !important;
+    background-color: slateblue !important;
 }
 .fa-main {
     border-radius: 50%;
-    background-color: palevioletred;
-    color: rgb(77, 204, 235);
+    background-color: rgb(55, 135, 226);
+    color: rgb(235, 193, 77);
     width: 100px;
     height: 100px;
     margin: 0 auto;
@@ -27,11 +27,11 @@ body{
     grid-template-columns: auto auto auto;
    text-align: center;
 }
-img {
+.img-animation img {
     width: 450px;
     height: 400px;
 }
-img:hover {
+.img-animation img:hover {
     animation-name: zoom;
     animation-duration: 3000ms;
     animation-fill-mode: forwards;
@@ -51,4 +51,25 @@ img:hover {
 }
 .center {
     text-align: center;
+}
+.btn {
+    background-color: none;
+    color: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
+#menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.aa {
+    background-image: url(./zdj/ob2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
