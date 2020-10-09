@@ -1,16 +1,54 @@
+body{
+    background-color: rgb(238, 223, 226) !important;
+}
 .fa-main {
     border-radius: 50%;
-    background-color: coral;
-    color: cornflowerblue;
-    width: 30px;
-    height: 30px;
+    background-color: palevioletred;
+    color: rgb(77, 204, 235);
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
 }
 .main-icon {
-    margin-top: 40px;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-top: 30px;
+   font-size: 40px;
 }
 .center-main {
+    text-align: center;
+}
+.text{
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(3, 3, 10);
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   text-align: center;
+}
+img {
+    width: 450px;
+    height: 400px;
+}
+img:hover {
+    animation-name: zoom;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+}
+.img-animation {
+    overflow: hidden;
+}
+
+@keyframes zoom {
+    from {
+        width: 450px;
+        height: 400px;
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+.center {
     text-align: center;
 }
